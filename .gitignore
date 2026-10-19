@@ -1,0 +1,34 @@
+
+# CMake build files
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+CTestTestfile.cmake
+
+# Compiled binaries
+nexuscore
+nexuscore_tests
+*.o
+*.obj
+*.exe
+*.out
+
+# IDE settings
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# Local application data
+data/tasks.txt
+nexuscore_test_tasks.txt
+
+# Operating system files
+.DS_Store
+Thumbs.db
